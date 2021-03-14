@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'fatlove';
+    src: url(../fonts/Fat\ Inlove\ -\ Personal\ Use.otf);
+
+}
+
+
+.logo{
+    color: black;
+    font-size: 85px;
+    font-family: fatlove;
+}
+.nav{
+    padding-top: 30px;
+    text-align: right;
+    
+}
+.if1bckgrnd{
+    padding-top: 25px;
+    background: url(../images/hedgehog-468228_1920.jpg);
+    background-size: cover;
+    height: 40em;
+    text-align: center;
+}
+.if2bckgrnd{
+    padding-top: 25px;
+    background: url(../images/guinea-pig-2513177_1920.jpg);
+    background-size: cover;
+    height: 40em;
+    text-align: center;
+    color: whitesmoke;
+}
+.if3bckgrnd{
+    padding-top: 25px;
+    background: url(../images/cute-3160464_1920.jpg);
+    background-size: cover;
+    height: 40em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.lifespan{
+    padding-top:26px;
+}
+
+.reg{
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+.regis{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.header{
+    background-color: whitesmoke;
+}
+
+.footfort{
+    padding-top: 5px;
+    background-color: whitesmoke;
+  
+}
+.signup{
+    padding-bottom: 60px;
+}
+
+.gtn{
+    padding-top: 75px;
+    padding-bottom: 150px;
+}

@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'fatlove';
+    src: url(../fonts/Fat\ Inlove\ -\ Personal\ Use.otf);
+
+}
+
+.logo{
+    color: black;
+    font-size: 85px;
+    font-family: fatlove;
+}
+.nav{
+    padding-top: 30px;
+    text-align: right;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+#add{
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 18em;
+    text-align: center;
+}

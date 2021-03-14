@@ -1,0 +1,238 @@
+
+@font-face{
+    font-family: 'fatlove';
+    src: url(../fonts/Fat\ Inlove\ -\ Personal\ Use.otf);
+
+}
+
+.body{
+    background-color: whitesmoke;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 85px;
+    font-family: fatlove;
+}
+.nav{
+    padding-top: 30px;
+    text-align: right;
+    
+}
+.btn{
+    color: whitesmoke;
+}
+.btn1{
+    color: whitesmoke;
+}
+
+.header{
+    padding: 25px 0px 300px 0px;
+    background-color: black;
+    
+}
+.header{
+    background-image: url(../images/hamster-3528446_1920.jpg);
+    background-size: cover;
+}
+.wonderquote{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 75px;
+}
+.aboutus{
+    background-image: url(../images/cute-3160464_1920.jpg);
+    background-size: cover;
+    color: whitesmoke;  
+    
+    
+     
+    
+}
+.abtus{
+    padding-top: 75px;
+      
+}
+.abt{
+    font-family: fatlove;
+    
+   
+}
+.facts{
+    padding-top: 75px;
+    padding-bottom: 10px;
+  
+}
+.btn2 :hover{
+    color: blue;
+}
+
+.bs{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid ;
+    border-right: 100px solid transparent;
+}
+.bs1{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid ;
+    border-left: 100px solid transparent;
+}
+.bs2{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid ;
+}
+.footfort
+{
+    padding-top: 25px
+}
+.abtrow{
+    padding-bottom: 75px;
+}
+.slides{
+    display: none;
+    padding-bottom:50px;
+}
+
+.footfort{
+    padding-top: 25px;
+    background-color: whitesmoke;
+    
+}
+
+
+
+
+
+
+
+.popup .content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-150%) scale(0);
+    width: 300px;
+    height: 350px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background: #262626;
+
+    z-index: 1;
+   }
+   
+   .popup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 5px 7px 5px;
+    background: #292929;
+
+    }
+   
+   .popup.active .content {
+   transition: all 300ms ease-in-out;
+   transform: translate(-50%,-50%) scale(1);
+   }
+   
+  
+   
+   .input-field .validate {
+   padding: 20px;
+   font-size: 16px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 15px;
+   color: #bfc0c0;
+   background: #262626;
+  
+   outline: none;
+   }
+   
+   .first-button {
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 30px 50px;
+   border-radius: 40px;
+   border: none;
+   position: absolute;
+   top: 50%;
+   left: 20%;
+   transform: translate(-50%, -50%);
+   background: #262626;
+
+   transition: box-shadow .35s ease !important;
+   outline: none;
+   }
+   
+   .first-button:active {  
+   background: linear-gradient(145deg, #222222, #292929);
+  
+   border: none;
+   }
+   
+   .second-button {
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: 20px;
+   padding: 20px 30px;
+   border-radius: 40px;
+   border: none;
+   background: #262626;
+  
+   transition: box-shadow .35s ease !important;
+   outline: none;
+   }
+   
+   .second-button:active{
+   background: linear-gradient(145deg,#222222, #292929);
+  
+   border: none;
+   outline: none;
+   }
+   .p1{
+   color: #bfc0c0;
+   padding: 20px;
+   }
+/* Larger than mobile */
+/* applies to all widths 400px and greater */
+@media (min-width: 400px) {
+ 
+}
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+  
+}
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+  
+}
+
+/* Larger than Desktop HD */
+/* applies to 1200px and greater */
+@media (min-width: 1200px) {
+
+}
